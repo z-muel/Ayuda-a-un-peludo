@@ -1,49 +1,60 @@
 body {
-    font-family: sans-serif;
-    margin: 0;
-    padding: 0;
-  }
+color:white;
+font-family: sans-serif;
+background-color: black;
+}
   
-  .me{
-    color:white;
-    background-color: black;
-  }
+.me{
+color:white;
+background-color: black;
+}
  
-  nav {
-    float: left;
+
+nav {
+float: left;
+width: 200px;
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+nav a {
+  color:white;
+  display: block;
+  padding: 10px;
+  text-decoration: none;
   }
+    
+  nav a:hover {
+  background-color: black;
+  color: rgba(255, 255, 255, 0.297);
+  }  
   
-  nav a {
-    text-decoration: none;
-    color: #fff;
-    margin-right: 25px;
-  }
+.seccion-1 {
+background-color: rgb(22, 241, 231);
+padding: 60px;
+margin-right: 80px;
+margin-left: 250px;
+}
   
-  .seccion-1 {
-    background-color: rgb(22, 241, 231);
-    padding: 60px;
-    margin-right: 80px;
-    margin-left: 250px;
-  }
-  
-  .seccion-2 {
-    background-color: rgb(255, 238, 0);
-    padding: 60px;
-    margin-right: 80px;
-    margin-left: 250px;
-  }
-  .seccion-3 {
-    background-color: rgb(255, 102, 0);
-    padding: 60px;
-    margin-right: 80px;
-    margin-left: 250px;
-  }
-  .seccion-4 {
-    background-color: #f00;
-    padding: 60px;
-    margin-right: 80px;
-    margin-left: 250px;
-  }
+.seccion-2 {
+background-color: rgb(255, 238, 0);
+padding: 60px;
+margin-right: 80px;
+margin-left: 250px;
+}
+.seccion-3 {
+background-color: rgb(255, 102, 0);
+padding: 60px;
+margin-right: 80px;
+margin-left: 250px;
+}
+.seccion-4 {
+background-color: #f00;
+padding: 60px;
+margin-right: 80px;
+margin-left: 250px;
+}
 
 
 
